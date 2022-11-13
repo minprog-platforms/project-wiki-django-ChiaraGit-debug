@@ -36,3 +36,37 @@ textarea {
 .sidebar h2 {
     margin-top: 5px;
 }
+
+.block {
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.block h1 {
+    text-align: center;
+}
+
+.mainblock {
+    background-color: #90ee90;
+    opacity: 0.5;
+    padding-left: 150px;
+}
+
+.mainblock a {
+    margin: 20px;
+    width: 100%;
+    display: inline;
+    justify-content: center;
+}
+
+.header {
+    background-color: #90ee90;
+    margin: 20px;
+}
+
+.header p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

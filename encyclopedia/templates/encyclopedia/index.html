@@ -5,12 +5,22 @@
 {% endblock %}
 
 {% block body %}
-    <h1>All Pages</h1>
-
-    <ul>
-        {% for entry in entries %}
-            <li>{{ entry }}</li>
-        {% endfor %}
-    </ul>
+    <div class="block">
+        <h1>Welcome to Wikipedia</h1>
+    </div>
+    <div class="header">
+        <p>From today's featured articles</p>
+    </div>
+    <div class="mainblock">
+        <a href="{% url 'index' %}">
+            <img src="/static/encyclopedia/csslogo.jpg" alt="CSS Logo" width= 200px height=300px>
+        </a>
+        <a href="{% url 'index' %}">
+            <img src="/static/encyclopedia/htmllogo.jpg" alt="HTML Logo" width= 200px height=300px>
+        </a>
+        <a href="{% url 'index' %}">
+            <img src="/static/encyclopedia/pythonlogo.jpg" alt="Python Logo" width= 200px height=300px>
+        </a>
+    </div>
 
 {% endblock %}
