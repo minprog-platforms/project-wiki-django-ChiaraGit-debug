@@ -5,12 +5,16 @@
 {% endblock %}
 
 {% block body %}
-    <h1>All Pages</h1>
+    <h1>Create new page</h1>
+    <hr>
 
-    <ul>
-        {% for entry in entries %}
-            <li>{{ entry }}</li>
-        {% endfor %}
-    </ul>
+    <form action="{% url 'createnewpage' %}" method="post">
+        {% csrf_token %}
+        <p>Title: <input type="text" name="entrytitle" placeholder=""></p>
+        <p><label for="createnewpage">Enter text:</label></p>
+        <textarea id="createnewpage" name="entertitle" rows="4" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
 
 {% endblock %}

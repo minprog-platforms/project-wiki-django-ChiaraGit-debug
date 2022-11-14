@@ -20,13 +20,13 @@
                     <a href="{% url 'index' %}">Home</a>
                 </div>
                 <div>
-                    Create New Page
+                    <a href="{% url 'createnewpage' %}">Create new page</a>
                 </div>
-                <div>
-                    Random Page
-                </div>
+                <br>
+                <h5>All pages</h5>
+                <hr>
                     {% for entry in entries %}
-                        {{ entry }}<br>
+                        <a href="{% url 'entrypage' title=entry %}">{{ entry }}</a><br>
                     {% endfor %}
 
                 {% block nav %}
