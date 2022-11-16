@@ -16,4 +16,4 @@ Creating an online encyclopedia.
 [![Create new page](imagesdesignproject/createnewpage.jpg?raw=true)]
 [![Entry page](imagesdesignproject/entrypage.jpg?raw=true)]
 [![Error page](imagesdesignproject/errorpage.jpg?raw=true)]
-[![Search results page](imagesdesignproject searchresultspage.jpg?raw=true)]
+[![Search results page](imagesdesignproject/searchresultspage.jpg?raw=true)]
