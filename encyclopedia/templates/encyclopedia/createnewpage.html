@@ -10,10 +10,9 @@
 
     <form action="{% url 'createnewpage' %}" method="POST" enctype="multipart/form-data">
         {% csrf_token %}
-        {{ form }}
         <p>Title: <input type="text" name="givetitle" placeholder=""></p>
         <p><label for="createnewpage">Enter text:</label></p>
-        <textarea id="createnewpage" name="givetext" rows="4" cols="50"></textarea>
+        <textarea id="createnewpage" name="givetext" row="100" col="50"></textarea>
         <br>
         <input type="submit" value="Submit">
     </form>

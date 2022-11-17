@@ -13,7 +13,8 @@
             <div class="sidebar col-lg-2 col-md-3">
                 <img src="/static/encyclopedia/logo.jpg" alt="Wikipedia Logo" width= 150px height=150px>
                 <h2>Wikipedia</h2>
-                <form>
+                <form action="{% url 'searchresults' %}" method="POST">
+                    {% csrf_token %}
                     <input class="search" type="text" name="q" placeholder="Search Encyclopedia">
                 </form>
                 <div>

@@ -8,8 +8,8 @@
     <h1>Search query</h1>
     <hr>
     <p>"query" may stand for:</p>
-    {% for entry in entries %}
-        <a href="{% url 'entrypage' title=entry %}">{{ entry }}</a><br>
+    {% for entry in recommendations %}
+        <li><a href="{% url 'entrypage' title=entry %}">{{ entry }}</a><br></li>
     {% endfor %}
 
 {% endblock %}
