@@ -1,0 +1,1 @@
+De universiteit van Leiden is geopend in 1575 en is de oudste universiteit van Nederland. Er zijn zeven faculteiten in Nederland (zes in Leiden en een in Den Haag). 
